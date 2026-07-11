@@ -53,9 +53,6 @@ After enabling GitHub Pages, your live website will be available here:
 https://Ronak861.github.io/feathercast-weather-app/
 ```
 
-## 📸 Screenshots
-
-Add screenshots of your application here.
 
 ## 👨‍💻 Author
 

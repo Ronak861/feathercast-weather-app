@@ -60,6 +60,10 @@ https://Ronak861.github.io/feathercast-weather-app/
 
 GitHub: https://github.com/Ronak861
 
+## 🌍 Hosted Link
+
+🔗 **Project URL:** [Weather With Flying Feathers]([https://your-netlify-link.netlify.app](https://feathercast-weather-app.netlify.app/))
+
 ## 📄 License
 
 This project is licensed under the MIT License.

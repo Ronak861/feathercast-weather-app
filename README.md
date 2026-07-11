@@ -50,7 +50,7 @@ git clone https://github.com/Ronak861/feathercast-weather-app.git
 After enabling GitHub Pages, your live website will be available here:
 
 ```
-[https://Ronak861.github.io/feathercast-weather-app/](https://ronak861.github.io/feathercast-weather-app/)
+https://Ronak861.github.io/feathercast-weather-app/
 ```
 
 

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimal Weather App</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="premium-weather-style.css">
+</head>
+<body>
+    <header class="app-header">
+        <h1>Weather</h1>
+    </header>
+
+    <main class="app-container">
+        <!-- Message Container -->
+        <div id="message-container" class="message-container hidden"></div>
+
+        <!-- Search Section -->
+        <section class="search-section">
+            <div class="search-bar">
+                <input type="text" id="city-input" placeholder="Search for a city..." aria-label="City search">
+                <button id="search-btn" class="primary-button">Search</button>
+            </div>
+            <div id="recent-searches" class="recent-searches">
+                <!-- Recent searches populated here -->
+            </div>
+        </section>
+
+        <!-- Loading Indicator -->
+        <div id="loading-indicator" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Fetching weather data...</p>
+        </div>
+
+        <!-- Current Weather Section -->
+        <section id="current-weather" class="current-weather hidden">
+            <div class="weather-main">
+                <div class="weather-header">
+                    <h2 id="city-name">--</h2>
+                    <p id="weather-description" class="weather-desc">--</p>
+                </div>
+                <div class="weather-temp-container">
+                    <img id="weather-icon" src="" alt="Weather Icon" class="weather-icon">
+                    <span id="temperature" class="temperature">--°C</span>
+                </div>
+            </div>
+            
+            <div class="weather-details">
+                <div class="detail-item">
+                    <span class="detail-label">Feels like</span>
+                    <span id="feels-like" class="detail-value">--°C</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Humidity</span>
+                    <span id="humidity" class="detail-value">--%</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Wind</span>
+                    <span id="wind-speed" class="detail-value">-- m/s</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Forecast Section -->
+        <section id="forecast-section" class="forecast-section hidden">
+            <h3>5-Day Forecast</h3>
+            <div id="forecast-container" class="forecast-container">
+                <!-- Forecast cards populated here -->
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="feathercast.js"></script>
+</body>
+</html>

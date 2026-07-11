@@ -62,7 +62,7 @@ GitHub: https://github.com/Ronak861
 
 ## 🌍 Hosted Link
 
-🔗 **Project URL:** [Weather With Flying Feathers]https://your-netlify-link.netlify.app/
+🔗 **Project URL:** [Weather With Flying Feathers]https://feathercast-weather-app.netlify.app/
 
 ## 📄 License
 

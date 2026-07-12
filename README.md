@@ -39,6 +39,7 @@ feathercast-weather-app/
 
 ```bash
 git clone https://github.com/Ronak861/feathercast-weather-app.git
+
 ```
 
 2. Open the project folder.
@@ -51,6 +52,8 @@ After enabling GitHub Pages, your live website will be available here:
 
 ```
 https://Ronak861.github.io/feathercast-weather-app/
+
+https://ronak861.github.io/feathercast-weather-app/
 ```
 
 
